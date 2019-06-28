@@ -45,7 +45,7 @@ ZSH_THEME="dracula"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(stack git autojump)
+plugins=(git autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -53,9 +53,9 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
-export GOPATH=$HOME/workspace/go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin:$GOROOT
+#export GOPATH=$HOME/workspace/go
+#export GOROOT=/usr/local/opt/go/libexec
+#export PATH=$PATH:$GOPATH/bin:$GOROOT
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -86,8 +86,8 @@ alias fgrep=fgrep --colour=always
 alias vim=nvim
 alias vi=nvim
 
-alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
-export EDITOR='nvim'
+#alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
+#export EDITOR='nvim'
 
 # Stop zsh from auto renaming windows
 export DISABLE_AUTO_TITLE="true"
@@ -95,13 +95,13 @@ export DISABLE_AUTO_TITLE="true"
 
 # https://github.com/sjl/z-zsh
 # https://github.com/rupa/z
-. /Users/wgillmer/Code/bin/z.sh
-function precmd () {
-   z --add "$(pwd -P)"
-}
+#. /Users/wgillmer/Code/bin/z.sh
+#function precmd () {
+#   z --add "$(pwd -P)"
+#}
 
 autoload -U colors && colors
 
-export NVM_DIR="/Users/wgillmer/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#export NVM_DIR="/Users/wgillmer/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
