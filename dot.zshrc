@@ -105,3 +105,7 @@ autoload -U colors && colors
 #export NVM_DIR="/Users/wgillmer/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# This should be the last line of the file
+# For local changes
+# Don't make edits below this
+[ -f ".zshrc.local" ] && source ".zshrc.local"
