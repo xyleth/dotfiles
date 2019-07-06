@@ -1,0 +1,7 @@
+#!/usr/local/bin/zsh
+# A shell script to hold zsh aliases
+
+# This should be the last line of the file
+# For local changes
+# Don't make edits below this
+[ -f ".aliases.local" ] && source ".aliases.local"
