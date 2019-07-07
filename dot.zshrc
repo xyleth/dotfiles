@@ -105,6 +105,9 @@ autoload -U colors && colors
 #export NVM_DIR="/Users/wgillmer/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# Homebrew PATH
+export PATH=/usr/local/bin:$PATH
+
 # Source functions and aliases
 source .functions
 source .aliases
