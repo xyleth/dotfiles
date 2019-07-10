@@ -51,6 +51,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 
 #export GOPATH=$HOME/workspace/go
 #export GOROOT=/usr/local/opt/go/libexec
