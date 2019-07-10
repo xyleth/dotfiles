@@ -45,8 +45,7 @@ ZSH_THEME="dracula"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump)
-
+plugins=(git autojump brew python pip virtualenv ansible docker fd fzf npm node osx vagrant vscode)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
